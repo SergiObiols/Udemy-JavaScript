@@ -1,3 +1,3 @@
 # Test Web Site
 
-2nd test
+Proyecto dedicado al aprendizaje del curso de programación de Javascript en Udemy.
