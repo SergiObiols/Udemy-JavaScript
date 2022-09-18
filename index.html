@@ -41,5 +41,42 @@
             <li> Pera </li>
             <li> Platano </li>
         </ol>
+        <h3> Tablas </h3>
+        <table border="2">
+            <tr>
+                <th> Nombre </th>
+                <th> Apellidos </th>
+                <th> País </th>
+            </tr>
+            <tr>
+                <td colspan=""> Sergi </td>
+                <td colspan=""> Obiols Lleixà  </td>
+                <td colspan=""> Catalunya </td>
+            </tr>
+        </table>
+        <h3> Formulario </h3>
+        <form>
+            <p>
+                <label for="Nombre"> Nombre </label>
+                <input type="text" name="Nombre" placeholder="Escribe tu nombre..."/>
+            </p>
+            <p>
+                <label for="descripcion">Descripción</label>
+                <textarea name="Descripcion" id="" cols="3" rows="1"></textarea>    
+            </p>
+            <p>
+                <input type="radio" name="Genero" value="Masculino"> Hombre <br/>
+                <input type ="radio" name="Genero" value="Femenino"> Mujer <br/>
+                <input type="radio" name="Genero" value="Otro"> NS/NS <br/>
+            </p>
+            <p>
+                <select name="Generos 2">
+                    <option value="Hombre"> Hombre </option>
+                    <option value="Mujer"> Mujer </option>
+                    <option value="Otro"> NS/NC </option>
+                </select>
+                <input type="submit" value="enviar formulario"/>
+            </p>
+        </form>
     </body>
 </html>
