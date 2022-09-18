@@ -1,3 +1,3 @@
-# Test Web Site
+# Javascript
 
-Proyecto dedicado al aprendizaje del curso de programación de Javascript en Udemy.
+Proyecto dedicado al aprendizaje del curso de programación de Javascript de Udemy.
