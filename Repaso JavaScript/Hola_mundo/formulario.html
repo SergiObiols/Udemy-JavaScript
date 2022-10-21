@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es";>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Ejercicio </title>
+        <script type="text/javascript" src="/Repaso JavaScript/Hola_mundo/32 - Ejercicio.js"></script>
+        <style>
+            .box{
+                width: 200px;
+                height: 250px;
+                float: left;
+                margin: 20px;
+            }
+            .dashed{
+                border: 3px dashed black;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title"> Ejercicio DOM, Eventos y Funciones</h1>
+
+        <!---
+        
+            1. Formulario con los campos:
+                - Nombre.
+                - Apellidos.
+                - Edad.
+            2. Boton enviar formulario con el evento submit.
+            3. Mostrar los datos por pantalla (incrustado en el HTML.)
+            4. Validación del formulario.
+        -->
+        
+        <h2> Introducción de los datos </h2>
+        <div class="box">
+            <form  action="" method="POST" id="form" onsubmit="return false;">
+                <label for="name"> Introduce tu nombre: </label><br>
+                <input id="name", type="text"/><br>
+                <span id="name_error"></span>
+                <br>
+                <label for="surname"> Introduce tus apellidos: </label><br>
+                <input id="surname", type="text"/><br>
+                <span id="surname_error"></span>
+                <br>
+                <label for="age"> Introduce tu edad: </label><br>
+                <input id="age", type="number"/><br>
+                <span id="age_error"></span>
+                <br>
+                <input type="submit" id="send" value="Enviar Formulario" />
+            </form>
+        </div>
+    
+
+        <div class="box dashed">
+            <h3> Información del Uuario </h3>
+            <p id="showname">
+                Nombre: <span></span>
+            </p>
+            <p id="showsurname">
+                Apellidos: <span></span>
+            </p>
+            <p id="showage">
+                Edad: <span></span>
+            </p>
+            <hr>       
+        </div>
+    </body>
+</html>
