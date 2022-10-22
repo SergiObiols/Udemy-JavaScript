@@ -6,7 +6,10 @@ var event = window.addEventListener('load', () => {
     var button = document.querySelector("#button");
 
     button.addEventListener('dblclick',() => {cambiarColor2();});
-    button.addEventListener('mouseover',() =>{cambiarColor();});
+    button.addEventListener('mouseover',() =>{
+        cambiarColor();
+        this.style.border = "10px solid black";
+    });
     button.addEventListener('mouseout',() =>{cambiarColor3();});
 
 
