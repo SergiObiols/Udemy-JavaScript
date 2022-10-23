@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title> Página HTML </title>
+    <!--
     <script type="text/javascript" src="/Repaso JavaScript/Hola_mundo/33 - JSON.js"> </script>
+    <script type="text/javascript" src="/Repaso JavaScript/Hola_mundo/34 - LocalStrorage.js"> </script>
+
+    -->
+    <script type="text/javascript" src="/Repaso JavaScript/Hola_mundo/35 - Ejercicio.js"> </script>
 </head>  
 <body>
-    <h1> JSON </h1>
+    
+    <form id="formulariopeliculas">
+        <h3> Añade tu pelicula </h3>
+        <label for="addpelicula"> Palícula </label>
+        <input type="text" id="addpelicula"/>
+        <button type="submit" id="boton"> Guardar </button>
+    </form>
+    <h2> Peliculas</h2>
     <div id="peliculas">
-        <h2> Peliculas</h2>
+        <ol id="listapeliculas">
+            
+        </ol>
     </div>
+    <form id="formulariopeliculas2">
+        <h3> Elimina tu pelicula </h3>
+        <label for="removepelicula"> Palícula </label>
+        <input type="text" id="removepelicula"/>
+        <button type="submit" id="boton2"> Eliminar </button>
+    </form>
 </body>
 </html>
